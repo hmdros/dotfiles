@@ -48,4 +48,4 @@
   mergeoptions = --no-edit
 [user]
 	email = hmdros@gmail.com
-	name = Henrique Medeiros
+	name = curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | zsh
