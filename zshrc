@@ -25,5 +25,6 @@ export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
 # Encoding stuff for the terminal
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-source /home/hmros/code/hmdros/dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+source /Users/hmdros/code/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
