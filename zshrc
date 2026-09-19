@@ -28,3 +28,4 @@ export LC_ALL=en_US.UTF-8
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 source /Users/hmdros/code/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
